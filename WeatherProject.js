@@ -32,7 +32,10 @@ render() {
 	return (
 		<View>
 			<Image 
-				source={require()
+				source={require("./flowers.png")}
+				resizeMode="cover"
+				style={styles.backdrop}
+				
 		</View>
 	)
 }
